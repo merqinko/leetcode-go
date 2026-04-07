@@ -3,10 +3,10 @@
 Daily practice solving LeetCode problems in Go.
 
 ## 📊 Progress Tracker
-- **Easy:** 1/100 ✅
+- **Easy:** 3/100 ✅
 - **Medium:** 0/100
 - **Hard:** 0/100
-- **Total:** 1/300
+- **Total:** 3/300
 
 ## 📁 Structure
 ```
@@ -43,6 +43,14 @@ go run easy/001-two-sum/solution.go
 1. **[001 - Two Sum](./easy/001-two-sum/)** ✅
    - Approach: Hash Map
    - Time: O(n) | Space: O(n)
+
+2. **[002 - Add Two Numbers](./easy/002-add-two-numbers/)** ✅
+   - Approach: Iterative with Carry
+   - Time: O(max(m,n)) | Space: O(max(m,n))
+
+3. **[009 - Palindrome Number](./easy/009-palindrome-number/)** ✅
+   - Approach: Mathematical Reverse
+   - Time: O(log₁₀ n) | Space: O(1)
 
 ---
 

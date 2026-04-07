@@ -29,7 +29,7 @@ func TestTwoSum(t *testing.T) {
 		},
 		{
 			name:   "negative numbers",
-			nums:   []int{-1, -2, -3, 5, 10},
+			nums:   []int{-1, -2, -3, 5, 8},
 			target: 5,
 			want:   []int{2, 4},
 		},
