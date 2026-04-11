@@ -3,10 +3,10 @@
 Daily practice solving LeetCode problems in Go.
 
 ## 📊 Progress Tracker
-- **Easy:** 3/100 ✅
-- **Medium:** 0/100
+- **Easy:** 4/100 ✅
+- **Medium:** 2/100 ✅
 - **Hard:** 0/100
-- **Total:** 3/300
+- **Total:** 6/300
 
 ## 📁 Structure
 ```
@@ -51,6 +51,23 @@ go run easy/001-two-sum/solution.go
 3. **[009 - Palindrome Number](./easy/009-palindrome-number/)** ✅
    - Approach: Mathematical Reverse
    - Time: O(log₁₀ n) | Space: O(1)
+
+4. **[013 - Roman to Integer](./easy/013-roman-to-integer/)** ✅
+   - Approach: Right-to-Left Iteration with Switch/Map
+   - Time: O(n) | Space: O(1)
+
+5. **[014 - Longest Common Prefix](./easy/014-longest-common-prefix/)** ✅
+   - Approach: Horizontal Scanning
+   - Time: O(S) | Space: O(1)
+
+### Medium
+6. **[015 - 3Sum](./medium/015-3sum/)** ✅
+   - Approach: Two Pointers After Sorting
+   - Time: O(n²) | Space: O(1)
+
+7. **[016 - 3Sum Closest](./medium/016-3sum-closest/)** ✅
+   - Approach: Two Pointers with Min Diff Tracking
+   - Time: O(n²) | Space: O(1)
 
 ---
 
